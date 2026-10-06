@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-06T16:31:45Z",
+  "updated": "2026-10-06T16:31:59Z",
   "plugins": {
     "rill.table": {
       "name": "rill.table",
@@ -131,6 +131,20 @@
           "size": 31496,
           "released": "2026-10-06",
           "notes": "First release on the plugin channel.",
+          "core_hosted": true,
+          "requires_plugins": {
+            "rill.statistic": ">=1.0,<2"
+          }
+        },
+        {
+          "version": "0.1.1",
+          "sdk_version": "1",
+          "min_rill": "0.2.0",
+          "url": "https://github.com/m00zu/rill-plugins/releases/download/rill.plot-v0.1.1/rill.plot-0.1.1.rillp",
+          "sha256": "f7218a931d4a4c07ddbcf9f66fe8fa3f5cc202d5f6288cdfffb279a89753e55b",
+          "size": 3954962,
+          "released": "2026-10-07",
+          "notes": "Native code now ships with the plugin.",
           "core_hosted": true,
           "requires_plugins": {
             "rill.statistic": ">=1.0,<2"
