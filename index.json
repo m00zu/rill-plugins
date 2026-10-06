@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-06T09:01:27Z",
+  "updated": "2026-10-06T09:01:42Z",
   "plugins": {
     "rill.table": {
       "name": "rill.table",
@@ -67,6 +67,24 @@
           "url": "https://github.com/m00zu/rill-plugins/releases/download/rill.script-v1.0.0/rill.script-1.0.0.rillp",
           "sha256": "f4b08c68bc709616f0a1ae46f34d3991a07046df88705383d9c06a119c41fb97",
           "size": 7413,
+          "released": "2026-10-06",
+          "notes": "First release on the plugin channel.",
+          "core_hosted": true,
+          "requires_plugins": {}
+        }
+      ]
+    },
+    "rill.image": {
+      "name": "rill.image",
+      "description": "",
+      "versions": [
+        {
+          "version": "0.1.0",
+          "sdk_version": "1",
+          "min_rill": "0.1.0",
+          "url": "https://github.com/m00zu/rill-plugins/releases/download/rill.image-v0.1.0/rill.image-0.1.0.rillp",
+          "sha256": "a3d0d6d6f892810eaedb0a4849bfdc681c433e2c88fc4ffc2d6b2b69a12a14aa",
+          "size": 69446,
           "released": "2026-10-06",
           "notes": "First release on the plugin channel.",
           "core_hosted": true,
