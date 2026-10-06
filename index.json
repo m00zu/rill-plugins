@@ -1,1 +1,24 @@
-{"schema": 1, "updated": "", "plugins": {}}
+{
+  "schema": 1,
+  "updated": "2026-10-06T09:00:35Z",
+  "plugins": {
+    "rill.table": {
+      "name": "rill.table",
+      "description": "",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "sdk_version": "1",
+          "min_rill": "0.1.0",
+          "url": "https://github.com/m00zu/rill-plugins/releases/download/rill.table-v1.0.0/rill.table-1.0.0.rillp",
+          "sha256": "7218ad6a7733ed29d9a0d08077d7f0dfe45d681d5980bf4348fbf57cb38d98fc",
+          "size": 32210,
+          "released": "2026-10-06",
+          "notes": "First release on the plugin channel.",
+          "core_hosted": true,
+          "requires_plugins": {}
+        }
+      ]
+    }
+  }
+}
