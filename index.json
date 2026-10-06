@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-06T09:01:52Z",
+  "updated": "2026-10-06T16:31:24Z",
   "plugins": {
     "rill.table": {
       "name": "rill.table",
@@ -33,6 +33,18 @@
           "size": 37526,
           "released": "2026-10-06",
           "notes": "First release on the plugin channel.",
+          "core_hosted": true,
+          "requires_plugins": {}
+        },
+        {
+          "version": "1.0.1",
+          "sdk_version": "1",
+          "min_rill": "0.2.0",
+          "url": "https://github.com/m00zu/rill-plugins/releases/download/rill.statistic-v1.0.1/rill.statistic-1.0.1.rillp",
+          "sha256": "9dd3e192591d27eca8e0a67c1ba8aa4645593b0ee823302ef139b49e0a027b42",
+          "size": 1227987,
+          "released": "2026-10-07",
+          "notes": "Native code now ships with the plugin.",
           "core_hosted": true,
           "requires_plugins": {}
         }
