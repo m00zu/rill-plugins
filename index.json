@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-07T00:26:57Z",
+  "updated": "2026-10-07T00:27:15Z",
   "plugins": {
     "rill.table": {
       "name": "rill.table",
@@ -141,6 +141,21 @@
           "requires_plugins": {
             "rill.statistic": ">=1.0,<2"
           }
+        },
+        {
+          "version": "0.1.2",
+          "sdk_version": "1",
+          "min_rill": "0.3.0",
+          "url": "https://github.com/m00zu/rill-plugins/releases/download/rill.image-v0.1.2/rill.image-0.1.2.rillp",
+          "sha256": "ba99c00105289d3af1b61fd7b8bee2284424e3eaff62c9933a5015f44e5bac6c",
+          "size": 2645989,
+          "released": "2026-10-07",
+          "notes": "Its node UI now ships with the plugin instead of Rill's core (D106), so UI fixes arrive as plugin releases. Needs Rill 0.3.0.",
+          "core_hosted": true,
+          "requires_plugins": {
+            "rill.statistic": ">=1.0,<2"
+          },
+          "ui_api": 1
         }
       ]
     },
