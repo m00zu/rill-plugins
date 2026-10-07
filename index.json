@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-07T14:23:16Z",
+  "updated": "2026-10-07T14:24:24Z",
   "plugins": {
     "rill.table": {
       "name": "rill.table",
@@ -266,6 +266,19 @@
           "size": 28654,
           "released": "2026-10-07",
           "notes": "The Sequence viewer ships as this plugin's own UI. Its alignment figure needs Rill with the own-environment renderer fix (main 2d72b28).",
+          "core_hosted": false,
+          "requires_plugins": {},
+          "ui_api": 1
+        },
+        {
+          "version": "0.1.2",
+          "sdk_version": "1",
+          "min_rill": "0.1.0",
+          "url": "https://github.com/m00zu/rill-plugins/releases/download/rill-align-v0.1.2/rill-align-0.1.2.rillp",
+          "sha256": "01227bb092d908d0a73120aab3be86a1f84029c1b925803187384e873620bfa4",
+          "size": 28864,
+          "released": "2026-10-07",
+          "notes": "Sequence viewer drags (selection, names, labels, list rows, pan) follow the viewer when it redraws mid-drag (D109).",
           "core_hosted": false,
           "requires_plugins": {},
           "ui_api": 1
