@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-07T00:27:15Z",
+  "updated": "2026-10-07T00:51:31Z",
   "plugins": {
     "rill.table": {
       "name": "rill.table",
@@ -204,6 +204,25 @@
           "requires_plugins": {
             "rill.statistic": ">=1.0,<2"
           },
+          "ui_api": 1
+        }
+      ]
+    },
+    "rill-align": {
+      "name": "rill-align",
+      "description": "",
+      "versions": [
+        {
+          "version": "0.1.1",
+          "sdk_version": "1",
+          "min_rill": "0.1.0",
+          "url": "https://github.com/m00zu/rill-plugins/releases/download/rill-align-v0.1.1/rill-align-0.1.1.rillp",
+          "sha256": "a47d7bffbc33c0396a5aa5400523bec7d488742db65c7e66c7e746b946ea7cfe",
+          "size": 28654,
+          "released": "2026-10-07",
+          "notes": "The Sequence viewer ships as this plugin's own UI. Its alignment figure needs Rill with the own-environment renderer fix (main 2d72b28).",
+          "core_hosted": false,
+          "requires_plugins": {},
           "ui_api": 1
         }
       ]
