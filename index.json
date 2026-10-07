@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-07T00:51:31Z",
+  "updated": "2026-10-07T12:10:01Z",
   "plugins": {
     "rill.table": {
       "name": "rill.table",
@@ -200,6 +200,21 @@
           "size": 3973730,
           "released": "2026-10-07",
           "notes": "Its node UI now ships with the plugin instead of Rill's core (D106), so UI fixes arrive as plugin releases. Needs Rill 0.3.0.",
+          "core_hosted": true,
+          "requires_plugins": {
+            "rill.statistic": ">=1.0,<2"
+          },
+          "ui_api": 1
+        },
+        {
+          "version": "0.2.0",
+          "sdk_version": "1",
+          "min_rill": "0.4.0",
+          "url": "https://github.com/m00zu/rill-plugins/releases/download/rill.plot-v0.2.0/rill.plot-0.2.0.rillp",
+          "sha256": "6db99cb2fe8d8996cc6c1311493f9c827db2197d04bab077b68060524c778342",
+          "size": 4705972,
+          "released": "2026-10-07",
+          "notes": "New: Compose figure (arrange charts, images and figures on a page in Focus; D101-D103), Compress image (small palette PNGs at a print size), Read figure (SVG, PNG, TIFF, JPEG, WebP, AVIF, JPEG 2000). Save figure takes a chart directly: the file extension is the format, with its own DPI. Rendered captions show file size. Needs Rill 0.4.0.",
           "core_hosted": true,
           "requires_plugins": {
             "rill.statistic": ">=1.0,<2"
