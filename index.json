@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-07T00:26:43Z",
+  "updated": "2026-10-07T00:26:57Z",
   "plugins": {
     "rill.table": {
       "name": "rill.table",
@@ -175,6 +175,21 @@
           "requires_plugins": {
             "rill.statistic": ">=1.0,<2"
           }
+        },
+        {
+          "version": "0.1.2",
+          "sdk_version": "1",
+          "min_rill": "0.3.0",
+          "url": "https://github.com/m00zu/rill-plugins/releases/download/rill.plot-v0.1.2/rill.plot-0.1.2.rillp",
+          "sha256": "2214e146ec353b2564c47cdc29aaada93fc1893376f5a295a9c9c9127ff5e498",
+          "size": 3973730,
+          "released": "2026-10-07",
+          "notes": "Its node UI now ships with the plugin instead of Rill's core (D106), so UI fixes arrive as plugin releases. Needs Rill 0.3.0.",
+          "core_hosted": true,
+          "requires_plugins": {
+            "rill.statistic": ">=1.0,<2"
+          },
+          "ui_api": 1
         }
       ]
     }
