@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-07T12:10:34Z",
+  "updated": "2026-10-07T14:23:16Z",
   "plugins": {
     "rill.table": {
       "name": "rill.table",
@@ -230,6 +230,21 @@
           "size": 4705972,
           "released": "2026-10-07",
           "notes": "New: Compose figure (arrange charts, images and figures on a page in Focus; D101-D103), Compress image (small palette PNGs at a print size), Read figure (SVG, PNG, TIFF, JPEG, WebP, AVIF, JPEG 2000). Save figure takes a chart directly: the file extension is the format, with its own DPI. Rendered captions show file size. Needs Rill 0.4.0.",
+          "core_hosted": true,
+          "requires_plugins": {
+            "rill.statistic": ">=1.0,<2"
+          },
+          "ui_api": 1
+        },
+        {
+          "version": "0.3.0",
+          "sdk_version": "1",
+          "min_rill": "0.4.0",
+          "url": "https://github.com/m00zu/rill-plugins/releases/download/rill.plot-v0.3.0/rill.plot-0.3.0.rillp",
+          "sha256": "293f8b344ff5b7a01df02e84a61dda525b40fede7fbf23a2df2bcecc083f20de",
+          "size": 4719143,
+          "released": "2026-10-07",
+          "notes": "Compose figure: text, lines, arrows, rectangles and ellipses on the page; A B C panel letters with Relabel; local chart edits (double-click a chart panel to restyle it for this figure only). Items keep their place in points; anything cut at or off the page edge is warned about. Edit figure: text items gain a Weight control. Needs Rill 0.4.0.",
           "core_hosted": true,
           "requires_plugins": {
             "rill.statistic": ">=1.0,<2"
