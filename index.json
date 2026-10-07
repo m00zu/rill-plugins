@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-07T00:26:16Z",
+  "updated": "2026-10-07T00:26:43Z",
   "plugins": {
     "rill.table": {
       "name": "rill.table",
@@ -96,6 +96,19 @@
           "notes": "First release on the plugin channel.",
           "core_hosted": true,
           "requires_plugins": {}
+        },
+        {
+          "version": "1.0.1",
+          "sdk_version": "1",
+          "min_rill": "0.3.0",
+          "url": "https://github.com/m00zu/rill-plugins/releases/download/rill.script-v1.0.1/rill.script-1.0.1.rillp",
+          "sha256": "6bb9780a255453bbbaa043cfcf17191dd28b7b67d1bd6d489e6315390116a81d",
+          "size": 216046,
+          "released": "2026-10-07",
+          "notes": "Its node UI now ships with the plugin instead of Rill's core (D106), so UI fixes arrive as plugin releases. Needs Rill 0.3.0.",
+          "core_hosted": true,
+          "requires_plugins": {},
+          "ui_api": 1
         }
       ]
     },
