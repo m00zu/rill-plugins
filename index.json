@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-07T12:10:01Z",
+  "updated": "2026-10-07T12:10:34Z",
   "plugins": {
     "rill.table": {
       "name": "rill.table",
@@ -151,6 +151,21 @@
           "size": 2645989,
           "released": "2026-10-07",
           "notes": "Its node UI now ships with the plugin instead of Rill's core (D106), so UI fixes arrive as plugin releases. Needs Rill 0.3.0.",
+          "core_hosted": true,
+          "requires_plugins": {
+            "rill.statistic": ">=1.0,<2"
+          },
+          "ui_api": 1
+        },
+        {
+          "version": "0.2.0",
+          "sdk_version": "1",
+          "min_rill": "0.4.0",
+          "url": "https://github.com/m00zu/rill-plugins/releases/download/rill.image-v0.2.0/rill.image-0.2.0.rillp",
+          "sha256": "4a22899a64f5f29c49150482106c49e435bb28dcd39de33deffdfc9c17c2dc93",
+          "size": 2649322,
+          "released": "2026-10-07",
+          "notes": "New: Choose channels (keep, drop, reorder, recolour and rename channels; pixels copied exactly). Read image reads WebP, AVIF and JPEG 2000 and records whether the file is lossless, lossy or may be lossy, warning when pixels are lossy. A single coloured channel is drawn in its colour in every picture. Needs Rill 0.4.0.",
           "core_hosted": true,
           "requires_plugins": {
             "rill.statistic": ">=1.0,<2"
