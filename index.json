@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-07T14:24:24Z",
+  "updated": "2026-10-08T11:29:53Z",
   "plugins": {
     "rill.table": {
       "name": "rill.table",
@@ -166,6 +166,21 @@
           "size": 2649322,
           "released": "2026-10-07",
           "notes": "New: Choose channels (keep, drop, reorder, recolour and rename channels; pixels copied exactly). Read image reads WebP, AVIF and JPEG 2000 and records whether the file is lossless, lossy or may be lossy, warning when pixels are lossy. A single coloured channel is drawn in its colour in every picture. Needs Rill 0.4.0.",
+          "core_hosted": true,
+          "requires_plugins": {
+            "rill.statistic": ">=1.0,<2"
+          },
+          "ui_api": 1
+        },
+        {
+          "version": "0.3.0",
+          "sdk_version": "1",
+          "min_rill": "0.4.0",
+          "url": "https://github.com/m00zu/rill-plugins/releases/download/rill.image-v0.3.0/rill.image-0.3.0.rillp",
+          "sha256": "df3ab89c7b09eaa784dda00d5fcb95430b8b421d94fa76c196f666a5e5ab56e3",
+          "size": 2652074,
+          "released": "2026-10-08",
+          "notes": "rill.image 0.3.0 (a new line; D119, D120)\n\n- Scale bar: drag the bar on the node's Draw tab; it settles in the nearest corner. Drag its end to change the length, which snaps to 1, 2 or 5 x 10^n um. Settings have clearer names and groups; saved values load unchanged and draw the same pixels.\n- Split channels: new Outputs choice. Separate works as before; List gives one list of every channel, so the next nodes run once per channel. Use {index} in Save image's filename to save each channel to its own file.\n- Split channels now keeps the name of a channel that has no colour (it used to become \"Channel N\"). Measurement columns built from merged channels can therefore be named, for example, \"DAPI\" instead of \"Channel 1\".\n- Saved nodes on the 0.2 line keep running on 0.2 if it is installed; use Update or \"Update all plugin nodes\" to move them to 0.3.",
           "core_hosted": true,
           "requires_plugins": {
             "rill.statistic": ">=1.0,<2"
