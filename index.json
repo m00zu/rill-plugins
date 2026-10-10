@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-10T05:31:12Z",
+  "updated": "2026-10-10T06:20:29Z",
   "plugins": {
     "rill.table": {
       "name": "rill.table",
@@ -196,6 +196,21 @@
           "size": 7770422,
           "released": "2026-10-10",
           "notes": "rill.image 0.4.0 (a new line; needs Rill 0.4.1; D126, D127)\n\n- Save image: RGB and multi-channel images save as the composite a result preview shows (each channel in its colour). One channel still saves exactly, and TIFFs keep the micrometre calibration.\n- Draw shape: the drawing view now matches the output picture (line widths, arrow heads, dashes, labels).\n- Draw shape: new Text tool. Text and labels use bundled Noto Sans and Noto Sans TC (SIL Open Font License), so Greek, symbols such as um and x, and Chinese draw correctly.\n- Draw shape: new Contrast setting (As recorded / Auto); the drawing view follows it.\n- Labels on existing drawings change font to Noto Sans, so use Update to move saved nodes to 0.4.",
+          "core_hosted": true,
+          "requires_plugins": {
+            "rill.statistic": ">=1.0,<2"
+          },
+          "ui_api": 1
+        },
+        {
+          "version": "0.4.1",
+          "sdk_version": "1",
+          "min_rill": "0.4.1",
+          "url": "https://github.com/m00zu/rill-plugins/releases/download/rill.image-v0.4.1/rill.image-0.4.1.rillp",
+          "sha256": "89dfa173a650a5e0c50a8d47d71d4dc31a77636923c6d1079feaaec139a73801",
+          "size": 7770516,
+          "released": "2026-10-10",
+          "notes": "rill.image 0.4.1 (a fix on the 0.4 line)\n\n- Number fields in the image editors (Draw shape's style fields, rule values, toggle min/max, threshold, kernel cells) keep focus while the node re-runs, so holding an arrow key or a spin arrow keeps stepping the value. A held Draw shape field is one undo step.\n- Nothing a saved workflow produces changes. Works best with Rill 0.4.2; on 0.4.1 the fields behave as before.",
           "core_hosted": true,
           "requires_plugins": {
             "rill.statistic": ">=1.0,<2"
