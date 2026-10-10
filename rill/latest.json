@@ -1,17 +1,17 @@
 {
-  "version": "0.4.1",
-  "notes": "Rill 0.4.1",
-  "pub_date": "2026-10-10T05:25:30Z",
-  "release_page": "https://github.com/m00zu/rill-plugins/releases/tag/rill-v0.4.1",
+  "version": "0.4.2",
+  "notes": "Rill 0.4.2 - Number fields keep focus while a node re-runs: hold an arrow key, or a spin arrow, to keep stepping a value (Draw shape and the other image editors).",
+  "pub_date": "2026-10-10T06:12:10Z",
+  "release_page": "https://github.com/m00zu/rill-plugins/releases/tag/rill-v0.4.2",
   "dmg": {
-    "url": "https://github.com/m00zu/rill-plugins/releases/download/rill-v0.4.1/Rill-0.4.1-arm64.dmg",
-    "sha256": "420960f909824d057e3a1b87c240910317eaec048bf57b46085a468b8a216e59",
-    "size": 107051166
+    "url": "https://github.com/m00zu/rill-plugins/releases/download/rill-v0.4.2/Rill-0.4.2-arm64.dmg",
+    "sha256": "c6070cdffbeedd52af1e55687bffd86ebd57cdc9810364a6cb0d087e05fea6fd",
+    "size": 100542099
   },
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/m00zu/rill-plugins/releases/download/rill-v0.4.1/Rill-0.4.1-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHJpbGwtc2lnbgpSVVNoRmcrTDhoTGcrU1RRVHc3aTcxQjJuYVFmZWxmOEwzRHYyZVY2TUYwZk1IM3JuRlB2OS9GeUtvTEFYRWs5UFFlckF3dWQ5Z05CU0RTRFY1THVQajhFSjQ5bzhkQ2hYd2c9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTE2MDk5MzAJZmlsZTpSaWxsLTAuNC4xLWFybTY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjQuMQpEM1UxU2FkZ3lvZytJbjhDdHcrWkZrVTB2S09YdzhRbEJZZUJZVmpENjFMekNrSDFkSHViRStsRXZ0WHYyTStKZUZlUnAyWEtUUkVWbDQ5eEkrMDBEQT09Cg=="
+      "url": "https://github.com/m00zu/rill-plugins/releases/download/rill-v0.4.2/Rill-0.4.2-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHJpbGwtc2lnbgpSVVNoRmcrTDhoTGcrUm8zdzk0a2RVaHFWUFQ4NlJIT3c3dGUrN3R3R3ZrSmlPYUtuMHBzb2dwMFpUOG1FTzhGQlNwTGdqUjVwazVjYjBGRXlrV0pzSGQrUGtjWW9xOVBFUWc9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTE2MTI3MzAJZmlsZTpSaWxsLTAuNC4yLWFybTY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjQuMgo5UC9GN3V5RndwM3lNQUNvL3MxNGl5cU9JUEFKbFlFTGJONUdoQllWSVhhYXB5d01iWFM5TkREZ0ZQdDJpaWxDTzZ1cVJVaHFCdG41MnM1Z3JTeFRDdz09Cg=="
     }
   }
 }
