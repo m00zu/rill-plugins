@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-08T12:02:57Z",
+  "updated": "2026-10-10T05:31:12Z",
   "plugins": {
     "rill.table": {
       "name": "rill.table",
@@ -181,6 +181,21 @@
           "size": 2652074,
           "released": "2026-10-08",
           "notes": "rill.image 0.3.0 (a new line; D119, D120)\n\n- Scale bar: drag the bar on the node's Draw tab; it settles in the nearest corner. Drag its end to change the length, which snaps to 1, 2 or 5 x 10^n um. Settings have clearer names and groups; saved values load unchanged and draw the same pixels.\n- Split channels: new Outputs choice. Separate works as before; List gives one list of every channel, so the next nodes run once per channel. Use {index} in Save image's filename to save each channel to its own file.\n- Split channels now keeps the name of a channel that has no colour (it used to become \"Channel N\"). Measurement columns built from merged channels can therefore be named, for example, \"DAPI\" instead of \"Channel 1\".\n- Saved nodes on the 0.2 line keep running on 0.2 if it is installed; use Update or \"Update all plugin nodes\" to move them to 0.3.",
+          "core_hosted": true,
+          "requires_plugins": {
+            "rill.statistic": ">=1.0,<2"
+          },
+          "ui_api": 1
+        },
+        {
+          "version": "0.4.0",
+          "sdk_version": "1",
+          "min_rill": "0.4.1",
+          "url": "https://github.com/m00zu/rill-plugins/releases/download/rill.image-v0.4.0/rill.image-0.4.0.rillp",
+          "sha256": "7134edc726e60828626b90ff596bbe778116b80ccdb45ced4b8a773d410c73df",
+          "size": 7770422,
+          "released": "2026-10-10",
+          "notes": "rill.image 0.4.0 (a new line; needs Rill 0.4.1; D126, D127)\n\n- Save image: RGB and multi-channel images save as the composite a result preview shows (each channel in its colour). One channel still saves exactly, and TIFFs keep the micrometre calibration.\n- Draw shape: the drawing view now matches the output picture (line widths, arrow heads, dashes, labels).\n- Draw shape: new Text tool. Text and labels use bundled Noto Sans and Noto Sans TC (SIL Open Font License), so Greek, symbols such as um and x, and Chinese draw correctly.\n- Draw shape: new Contrast setting (As recorded / Auto); the drawing view follows it.\n- Labels on existing drawings change font to Noto Sans, so use Update to move saved nodes to 0.4.",
           "core_hosted": true,
           "requires_plugins": {
             "rill.statistic": ">=1.0,<2"
