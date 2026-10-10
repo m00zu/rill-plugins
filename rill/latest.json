@@ -1,17 +1,17 @@
 {
-  "version": "0.4.0",
-  "notes": "Rill 0.4.0, the first release that can update itself.",
-  "pub_date": "2026-10-09T05:49:51Z",
-  "release_page": "https://github.com/m00zu/rill-plugins/releases/tag/rill-v0.4.0",
+  "version": "0.4.1",
+  "notes": "Rill 0.4.1",
+  "pub_date": "2026-10-10T05:25:30Z",
+  "release_page": "https://github.com/m00zu/rill-plugins/releases/tag/rill-v0.4.1",
   "dmg": {
-    "url": "https://github.com/m00zu/rill-plugins/releases/download/rill-v0.4.0/Rill-0.4.0-arm64.dmg",
-    "sha256": "d20d8f7ef7b845e7885425c2fa314a91beacbda223b33ac4cc38339b27250ff0",
-    "size": 100858736
+    "url": "https://github.com/m00zu/rill-plugins/releases/download/rill-v0.4.1/Rill-0.4.1-arm64.dmg",
+    "sha256": "420960f909824d057e3a1b87c240910317eaec048bf57b46085a468b8a216e59",
+    "size": 107051166
   },
   "platforms": {
     "darwin-aarch64": {
-      "url": "https://github.com/m00zu/rill-plugins/releases/download/rill-v0.4.0/Rill-0.4.0-arm64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHJpbGwtc2lnbgpSVVNoRmcrTDhoTGcrYXJLSFg3SmErbSsxdXNrLy9iQUV0M1NzdlNJaUNBOVlGdFV1bjNURnh3N3dxQjQrNENCWnpEK3h2ZVZTb2JQQnFJNVJtNExvT2RzTHlYNUNtSWFuUUU9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTE1MjQ5OTEJZmlsZTpSaWxsLTAuNC4wLWFybTY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjQuMApqQkI3L3NaTHNPaWtPWHdwOVJBYTQrbHVpYVBjRncwL2JkYmFYbkFJaGptOXJ5dTg2T1Q5c2M0TzRJT1R3and4bDY3d3NUNERvdm5MNFFjMW1ET2ZDUT09Cg=="
+      "url": "https://github.com/m00zu/rill-plugins/releases/download/rill-v0.4.1/Rill-0.4.1-arm64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHJpbGwtc2lnbgpSVVNoRmcrTDhoTGcrU1RRVHc3aTcxQjJuYVFmZWxmOEwzRHYyZVY2TUYwZk1IM3JuRlB2OS9GeUtvTEFYRWs5UFFlckF3dWQ5Z05CU0RTRFY1THVQajhFSjQ5bzhkQ2hYd2c9CnRydXN0ZWQgY29tbWVudDogdGltZXN0YW1wOjE3OTE2MDk5MzAJZmlsZTpSaWxsLTAuNC4xLWFybTY0LmFwcC50YXIuZ3oJdmVyc2lvbjowLjQuMQpEM1UxU2FkZ3lvZytJbjhDdHcrWkZrVTB2S09YdzhRbEJZZUJZVmpENjFMekNrSDFkSHViRStsRXZ0WHYyTStKZUZlUnAyWEtUUkVWbDQ5eEkrMDBEQT09Cg=="
     }
   }
 }
